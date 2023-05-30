@@ -120,11 +120,82 @@ sns.barplot(x='gender',y='reading score',data=df)
 
 sns.boxplot(x="math score",data=df)
 ```
+
 ## OUTPUT :
+
+### Dataset :
+
+![Screenshot 2023-05-30 185314](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/4a03c31a-3126-484f-96e8-8db466b5902f)
+
+### data.info() :
+ 
+![Screenshot 2023-05-30 185325](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/2e724424-8a1c-4e43-a785-8c5f61845171)
+
+### data.isnull().sum() :
+
+![Screenshot 2023-05-30 185443](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/6af1029c-32a4-43e8-ac66-6d70dfdd8f6c)
+
+### After removing null values :
+
+![Screenshot 2023-05-30 185619](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/2dc5627a-5dda-48ce-97e8-ee43c4a5dbcd)
+
+### data.describe() :
+![Screenshot 2023-05-30 185702](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/0fc2360b-b5d3-4498-9ef7-ba5e896a48e1)
+
+### data.head() :
+
+![Screenshot 2023-05-30 185845](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/92fff830-153d-494d-bedd-1042a72b6f61)
+
+### New data after removing outliers :
+
+![Screenshot 2023-05-30 185856](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/e2744dc4-5593-4a0a-a3df-7157c2fe3549)
+
+### Outliers :
+
+![Screenshot 2023-05-30 185909](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/4d9cef8b-bd0e-4eb6-bddd-7361fdfeb160)
+
+### df.shape() :
+
+![Screenshot 2023-05-30 190226](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/9fb2c28a-d082-493c-8fbf-83d62826e21e)
+
+### Ordinal Encoding :
+
+![Screenshot 2023-05-30 190356](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/69939284-4aa1-4fc8-a534-d625e8478685)
+
+### Label Encoding :
+
+![Screenshot 2023-05-30 190417](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/3b0a1a6c-2b31-481a-a769-cd31041c2850)
+
+### OneHot Encoding :
+
+![Screenshot 2023-05-30 190624](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/c05836fd-0907-489d-9702-3ff57a839622)
+
+### Binary Encoding :
+
+![Screenshot 2023-05-30 190635](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/88c2dbe6-ee28-43c3-bca8-3543101c1833)
+
+### Heatmap :
+
+![Screenshot 2023-05-30 190746](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/5d14354a-e37c-4243-8002-ba989a57e356)
+
+### Scatterplot :
+
+![Screenshot 2023-05-30 190820](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/2b3bd6e8-c533-402d-a927-cc4ce110176e)
+
+
+### Barplot :
+
+![Screenshot 2023-05-30 190839](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/bbfe46b3-8af7-4811-bd82-3c7f615174ee)
+
+### Boxplot :
+
+ ![Screenshot 2023-05-30 190848](https://github.com/Abrinnisha6/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118889454/029d0b3f-907d-421c-946d-603bd2313d88)
 
 
 
 ## RESULT :
+
+
 Hence, Data Science Process is performed on a complex dataset and saved the data to a file.
 
 
